@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eaab32e4.css",
+    "main.js": "/static/js/main.32fd0c17.js",
+    "static/media/main-casa.png": "/static/media/main-casa.98034c4d1e4df39f98cc.png",
+    "static/media/main-departamento.png": "/static/media/main-departamento.4a93d6872775158d8fea.png",
+    "static/media/vendedor1.png": "/static/media/vendedor1.7403bc8a4b3a32062896.png",
+    "static/media/casa.png": "/static/media/casa.72a7a7a81658aca9587d.png",
+    "static/media/vendedor2.png": "/static/media/vendedor2.8c5c330ea935b0b31c39.png",
+    "static/media/cocina.png": "/static/media/cocina.5ccc4b565daab5294160.png",
+    "static/media/sala.png": "/static/media/sala.5372411f54880e52688c.png",
+    "static/media/main.jpg": "/static/media/main.7dcad33fdfd9ee0291fa.jpg",
+    "static/media/cuarto.png": "/static/media/cuarto.8acda1b529bcaececefa.png",
+    "static/media/baño.png": "/static/media/baño.8df8459b0bd80e60a4bb.png",
+    "static/media/sidebarCasa.png": "/static/media/sidebarCasa.d08af3fd3bcf4e28e6ee.png",
+    "static/media/search.png": "/static/media/search.a27091ef0c45faf8a66e.png",
+    "static/media/casa-logo.png": "/static/media/casa-logo.7e47bd64dcc12a746690.png",
+    "static/media/usuario.png": "/static/media/usuario.5770e1f18a66f7eae99b.png",
+    "index.html": "/index.html",
+    "main.eaab32e4.css.map": "/static/css/main.eaab32e4.css.map",
+    "main.32fd0c17.js.map": "/static/js/main.32fd0c17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaab32e4.css",
+    "static/js/main.32fd0c17.js"
+  ]
+}

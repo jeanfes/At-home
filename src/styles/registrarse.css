@@ -1,0 +1,262 @@
+.principal-sigin_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#form-registrarse{
+    align-items: normal;
+}
+
+.registrarse-main_container{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow:  5px -5px 53px #bdbdbd,
+                 -5px 5px 53px #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.logo p{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #737373;
+    font-weight: 600;
+    vertical-align: sub;
+}
+
+.title h1{
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.2px;
+}
+
+.title p{
+    margin-top: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label{
+    width: 100%;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    position: relative;
+}
+
+.container2{
+    width: 100%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.container3 div{
+    width: 100%;
+    position: relative;
+}
+.mostrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    cursor: pointer;
+}
+.mostrar img{
+    width: 100%;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.container4 p{
+    font-size: 13px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: #737373;
+}
+
+.birthday-main_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+#edad{
+    width: 32%;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(118, 118, 118);
+}
+#edad:focus{
+    border: 2px solid var(--primary-color);
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container5 p{
+    font-size: 13px;
+    color: #737373;
+}
+.genero-main_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 30px;
+    justify-content: space-between;
+}
+.input-container_sex{
+    width: 33.3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+}
+
+.input-container_sex:active{
+    border: 2px solid var(--primary-color);
+}
+
+.input-container_sex p{
+    margin-top: 0px;
+    color: #737373 ;
+}
+
+.input-container_sex input{
+    width: auto;
+    vertical-align: middle;
+}
+
+#form-registrarse input:not([type="radio"]){
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#form-registrarse input:not([type="radio"])::placeholder{
+    font-size: 15px;
+}
+
+#button_signin{
+    width: 150px;
+    background-color: var(--primary-color);
+    color: white;
+    align-self: flex-end;
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.incorrecto{
+    border: 1px solid red !important;
+}
+
+.validaredad{
+    border: 1px solid red !important;
+}
+
+.button-signin_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-signin_container p{
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+#dialog_error{
+    background-color: #ff655d;
+    padding: 2px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.active{
+    opacity: 0;
+}
+
+#button_signin:hover{
+    background-color: #1a70a2;
+}
+
+@media(max-width:600px){
+    .registrarse-main_container{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        background: white;
+        box-shadow: none;
+        margin-bottom: 50px;
+        border-radius: 0px;
+    }
+    .button-signin_container{
+        flex-direction: column;
+    }
+    #dialog_error{
+        margin-top: 5px;
+    }
+    .container3{
+        flex-direction: column;
+    }
+}

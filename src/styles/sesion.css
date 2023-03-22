@@ -1,0 +1,177 @@
+.principal-login_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.login-main_container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    width: 420px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px -5px 53px #bdbdbd,
+        -5px 5px 53px #ffffff;
+}
+
+.section-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .4s ease;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo h1 {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #737373;
+    font-weight: 600;
+    vertical-align: sub;
+}
+
+.log-in-container_email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.log-in-title_email p:nth-child(1) {
+    color: black;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.log-in-title_email p:nth-child(2) {
+    color: #4f4f4f;
+    font-size: 12px;
+}
+
+#log-in-input_email input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#log-in-input_email p {
+    font-size: 13px;
+    color: red;
+}
+
+#log-in-input_email input::placeholder {
+    font-size: 15px;
+}
+
+.signin_link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.signin_link p {
+    font-size: 13px;
+    color: black;
+}
+
+.signin_link a{
+    text-decoration: none;
+}
+
+.signin_link a p {
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 2px;
+    color: var(--primary-color);
+}
+
+.contraseña_recuperacion {
+    margin-top: 15px;
+}
+
+.contraseña_recuperacion a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6d6c6b;
+}
+
+#button-entrar {
+    background-color: var(--primary-color);
+    color: white;
+    align-self: flex-end;
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#button-entrar:hover {
+    background-color: #1a70a2;
+}
+
+.log-in-container_password {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+#log-in-input_password input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    padding-bottom: 8px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 0;
+}
+
+#log-in-input_password input ::placeholder {
+    font-size: 15px;
+}
+
+.incorrecto {
+    border: 1px solid red !important;
+}
+
+@media(max-width:500px) {
+    .login-main_container{
+        width: 100%;
+        box-shadow:  none;
+    }
+}
